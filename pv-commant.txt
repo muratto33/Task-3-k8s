@@ -1,7 +1,0 @@
-1) Persistant volumes by the name.
-        
-        kubectl get pv --sort-by=.metadata.name
-
-2) Persistant volumes sorted by size.
-        
-        kubectl get pv --sort-by=.spec.capacity.storage
